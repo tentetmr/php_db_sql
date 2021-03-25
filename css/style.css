@@ -1,0 +1,121 @@
+html {
+  text-align: center;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-family: "M PLUS Rounded 1c";
+  
+}
+
+.header, footer {
+  text-align: center;
+  /* background: #50c08e; */
+}
+footer {
+  height: 70px;
+  border-top: 1px solid #cdd5e5;
+}
+
+.title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  /* width: 50px; */
+  height: 50px;
+  margin-right: 10px;
+}
+.intro {
+  /* width: 500px; */
+  margin: 0 auto 50px auto;
+}
+.link {
+  color: rgb(101, 202, 228);
+  text-decoration: none;
+}
+.footerLink {
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+.uName{
+  font-size: bold;
+}
+
+.input {
+  width: 400px;
+  appearance: none;
+  background: #fff;
+  border: 1px solid #cdd5e5;
+  border-radius: 5px;
+  color: #34404e;
+}
+
+.height50 {
+  height: 50px;
+}
+.height200 {
+  height: 200px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+  color: #50c08e;
+}
+.loginForm, .post {
+  margin-bottom: 50px;
+}
+.inputButton {
+  font-size: 18px;
+  font-weight: 600;
+  background: #50c08e;
+  width: 50%;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.registrationForm{
+  display: none;
+}
+.registrationButton {
+  font-weight: 600;
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #fff;
+  color: rgb(101, 202, 228);
+}
+.registrationButton:hover {
+  cursor: pointer;
+}
+
+.postBlock {
+  border-top: 1px solid #cdd5e5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: bold;
+}
+.postImpression{
+  padding: 0.5em 1em;
+  width: 70%;
+  margin: 2em auto;
+  color: #474747;
+  background: whitesmoke;/*背景色*/
+  border-left: double 7px #4ec4d3;/*左線*/
+  border-right: double 7px #4ec4d3;/*右線*/
+}
+.postImpression p {
+  margin: 0; 
+  padding: 0;
+}
+.table {
+  font-size: 14px;
+}
+
+
